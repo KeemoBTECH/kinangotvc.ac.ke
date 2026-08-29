@@ -156,10 +156,8 @@ export default function Navbar() {
 
                 {/* Mobile Nav */}
                 <Sheet open={isOpen} onOpenChange={setIsOpen}>
-                    <SheetTrigger asChild>
-                        <button className="md:hidden p-2 rounded-md hover:bg-gray-100">
-                            <Menu className="h-6 w-6 text-gray-700" />
-                        </button>
+                    <SheetTrigger className="md:hidden p-2 rounded-md hover:bg-gray-100">
+                        <Menu className="h-6 w-6 text-gray-700" />
                     </SheetTrigger>
                     <SheetContent side="right" className="w-[300px] overflow-y-auto">
                         <div className="flex flex-col gap-4 mt-8">

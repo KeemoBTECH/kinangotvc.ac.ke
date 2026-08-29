@@ -186,7 +186,11 @@ export default function ApplyPage() {
                                 <Label htmlFor="programme">Programme of Interest</Label>
                                 <div className="relative">
                                     <BookOpen className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400 z-10" />
-                                    <Select value={programme} onValueChange={setProgramme} required>
+                                    <Select
+                                        value={programme}
+                                        onValueChange={(value) => setProgramme(value ?? "")}
+                                        required
+                                    >
                                         <SelectTrigger className="pl-10">
                                             <SelectValue placeholder="Select a programme" />
                                         </SelectTrigger>
