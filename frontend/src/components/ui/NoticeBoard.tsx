@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowRight, Bell, Loader2 } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000/api";
+const API_URL = process.env.NEXT_PUB_API_URL || "kinangotti-api-production.up.railway.app/api";
 
 interface Notice {
     _id: string;
