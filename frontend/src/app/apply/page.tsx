@@ -11,7 +11,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Separator } from "@/components/ui/separator";
 import { Loader2, Send, CheckCircle, User, Mail, Phone, BookOpen } from "lucide-react";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000/api";
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "kinangotti-api-production.up.railway.app/api";
 
 const programmes = [
     "Building Technology",
