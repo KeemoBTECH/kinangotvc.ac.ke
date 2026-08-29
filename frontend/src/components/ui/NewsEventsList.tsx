@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Card, CardContent } from "@/components/ui/card";
 import { Calendar, FileText, Loader2 } from "lucide-react";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000/api";
+const API_URL = process.env.NEXT_PUB_API_URL || "kinangotti-api-production.up.railway.app/api";
 const BASE_URL = API_URL.replace("/api", "");
 
 interface NewsItem {
